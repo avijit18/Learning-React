@@ -7,6 +7,7 @@ import { use } from "react";
 function App() {
   // let counter = 1
 
+  // hooks are used for ui updation in react, and there are many type of hooks in
   let [counter, setCounter] = useState(0);
   let [message, setMessage] = useState("");
   let [color, setColor] = useState("");
